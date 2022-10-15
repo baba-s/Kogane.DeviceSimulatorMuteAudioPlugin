@@ -14,7 +14,7 @@ namespace Kogane.Internal
 
         public override VisualElement OnCreateUI()
         {
-            m_button = new Button();
+            m_button = new();
             m_button.clicked += () =>
             {
                 EditorUtility.audioMasterMute = !EditorUtility.audioMasterMute;
